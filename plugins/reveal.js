@@ -24,7 +24,7 @@ Reveal.prototype = {
 
     configure: function () {
         this.page.evaluate(function () {
-            Reveal.configure({ controls: false, progress: false });
+            Reveal.configure({ controls: false, progress: false, fragments: false });
         });
     },
 
